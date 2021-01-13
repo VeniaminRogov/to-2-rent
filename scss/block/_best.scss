@@ -1,0 +1,28 @@
+.best {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  text-align: right;
+
+  &__title {
+    width: 492px;
+		margin-left: auto;
+		padding-top: 58px;
+    font-family: PT Serif;
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffffff;
+		font-weight: 400;
+		padding-bottom: 15px;
+  }
+
+  &__link {
+		display: inline-block;
+    background-color: #000000;
+		color: #ffffff;
+		line-height: 18px;
+		padding: 16px 18px;
+		text-decoration: none;
+  }
+}

@@ -1,0 +1,50 @@
+@media(max-width:992px){
+	
+}
+
+@media(max-width:768px){
+	.header__logo {
+    padding: 40px 0 30px;
+}
+
+	.logo{
+		&__link-img{
+			max-width: 250px;
+		}
+	}
+
+	.menu__list-link{
+		padding: 24px 10px 28px;
+	}
+
+	.slider{
+		&__item{
+			min-height: 400px;
+		}
+	}
+}
+
+@media(max-width:600px){
+	.menu{
+		&__list{
+			display: block;
+			border-top: 1px solid #c4c4c4;
+
+			&-link{
+				padding: 20px 10px;
+			}
+
+			&-item{
+				width: 100%;
+				&{
+				border-bottom: 1px solid #c4c4c4;
+
+				}
+				&:first-child,&:last-child{
+					border-left: none;
+					border-right: none;
+				}
+			}
+		}
+	}
+}

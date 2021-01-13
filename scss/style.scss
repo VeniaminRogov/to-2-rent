@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+// font-family: 'PT Serif', serif;
+//
+/* &subset=cyrillic */
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@import "block/_header.scss";
+@import "block/_slider.scss";
+@import "block/_search.scss";
+@import "block/_popular.scss";
+@import "block/_reason.scss";
+@import "block/_best.scss";
+@import "block/_about.scss";
+@import "block/_footer.scss";
+@import "block/_media.scss";
